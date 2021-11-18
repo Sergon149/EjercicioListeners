@@ -13,7 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         binding.b1.setOnClickListener {
-            binding.tv1.text=numeroAle().toString()
+            var num = (1..100).random()
+            binding.tv1.text=num.toString()
         }
 
         binding.b2.setOnClickListener {
@@ -26,10 +27,10 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun numeroAle() :Int {
+    /*fun numeroAle() :Int {
         var num = (1..100).random()
         return num
-    }
+    }*/
 
     fun letraAleatoria() : Char{
         var letra = (97..122).random()
