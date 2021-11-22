@@ -34,13 +34,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="Cambiar letra aleatoria"/>
+        android:text="Cambiar letra aleatoria"
+        android:visibility="gone"/>
 
     <TextView
         android:id="@+id/tv1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:height="50dp"
+        android:text=""
         android:layout_marginTop="15dp"/>
 
 </LinearLayout>
